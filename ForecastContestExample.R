@@ -51,7 +51,7 @@ donations$TestGroup1C <- ifelse(donations$TG == "C", 1, 0)
 donations$TestGroup1D <- ifelse(donations$TG == "D", 1, 0)
 
 
-# if you do any data transformation do it before generating train and test
+# data transformation before generating train and test
 
 # Spliting the Data (Test & Train)
 set.seed(1234)
