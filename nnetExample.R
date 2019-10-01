@@ -1,4 +1,4 @@
-setwd("/Users/giyoon/Documents/Informs/Data")
+setwd("/Users/xiqia/Documents/Informs/Data")
 data<-read.csv('CustR.csv')
 install.packages('neuralnet')
 library(neuralnet)
